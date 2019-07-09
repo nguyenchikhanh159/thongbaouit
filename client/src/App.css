@@ -1,0 +1,325 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-fixed {
+  height: 64px;
+  position: relative;
+  width: 1349px;
+  color: #ffffff;
+  background: #26a69a;
+}
+/* nav .nav-wrapper {
+  color: #fff;
+  margin: 0px 400px 0px 0px;
+} */
+nav .navbar-fixed nav {
+  position: fixed;
+}
+
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 31.5px;
+  padding: 0;
+  white-space: nowrap;
+}
+nav .container > ul {
+  list-style-type: none;
+}
+nav .container > ul > li {
+  text-decoration: none;
+  float: left;
+}
+nav .material-icons {
+  font-size: 36px;
+  margin-top: 10px;
+  position: relative;
+}
+nav .hide-on-small-only {
+  margin: 5px 0px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+strong {
+  font-weight: bold;
+}
+#banner {
+  margin-top: px;
+  height: 50px;
+  background: #26a69a;
+  color: #fff;
+}
+#banner > h5 {
+  font-size: 24.6px;
+  margin: 0px 100.359px 0px 280.344px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-panel {
+  transition: box-shadow 0.25s;
+  padding: 20px;
+  border-radius: 2px;
+}
+#banner-main {
+  height: 60px;
+  background: #26a69a;
+}
+#main {
+  background: #26a69a;
+  height: 250x;
+}
+#us-creator >h4{
+  font-size: 34.2px;
+  color: rgba(black,0.19)
+}
+#us-creator .input-field > input {
+  height: 121px;
+  width: 944.3px;
+  padding: 20px 0px;
+  background: #ffffff;
+  transition: box-shadow 0.25s;
+  border-radius: 3px;
+  margin-bottom: -12px;
+  box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+  border: 2px solid #eff8fb;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
+#us-creator .input-field > label {
+  position: absolute;
+  right: 650px;
+  top: 150px;
+  font-size: 11px;
+}
+/* #us-creator table tr.grey.lighten-1.grey-text {
+  text-decoration: line-through;
+} */
+#us-creator table th:first-child {
+  border-left: 1px solid teal;
+}
+#us-creator table th {
+  border-right: 1px solid teal;
+  border-radius: 0;
+}
+#us-creator table td:first-child {
+  border-left: 1px solid #26a69a;
+}
+#us-creator table td {
+  border-right: 1px solid #26a69a;
+  border-top: 1px solid #26a69a;
+}
+#us-creator table tbody tr:last-child td {
+  border-bottom: 1px solid #26a69a;
+}
+.container-bottom{
+  height: 300px;
+  width: 1349px;
+  background: #f1f1f1;
+  position: relative;
+}
+.card-panel-bottom{
+  height: 200px;
+  width: 1000px;
+  padding: 20px 0px;
+  background: #ffffff;
+  transition: box-shadow 0.25s;
+  border-radius: 3px;
+  margin: 20px 210px 0px 190px;
+  box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #eff8fb;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+}
+.card-panel-bottom .right a{
+  width: 200x;
+  height: 50px;
+  position: absolute;
+}
+.card-panel-bottom .right h5{
+  width: 400px;
+  margin-left: -30px;
+  height: 20px;
+  float: left;
+  position: relative;
+  color:rgba(black,0.5);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-panel-bottom .chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+.card-panel-bottom .chip a{
+  cursor: pointer;
+}
+.overflow{
+  overflow-x: auto;
+  margin: 100px;
+  position: relative;
+  background: #f1f1f1;
+}
+
+table,
+th,
+td {
+  border: none;
+}
+table {
+  width: 100%;
+  display: table;
+}
+table.bordered > thead > tr,
+table.bordered > tbody > tr {
+  border-bottom: 1px solid #d0d0d0;
+}
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+table.striped > tbody > tr > td {
+  border-radius: 0;
+}
+table.highlight > tbody > tr {
+  transition: background-color 0.25s ease;
+}
+table.highlight > tbody > tr:hover {
+  background-color: #f2f2f2;
+}
+table.centered thead tr th,
+table.centered tbody tr td {
+  text-align: center;
+}
+thead {
+  border-bottom: 1px solid #d0d0d0;
+}
+td,
+th {
+  padding: 15px 5px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+@media only screen and (max-width: 992px) {
+  table.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+  }
+  table.responsive-table td:empty:before {
+    content: "\00a0";
+  }
+  table.responsive-table th,
+  table.responsive-table td {
+    margin: 0;
+    vertical-align: top;
+  }
+  table.responsive-table th {
+    text-align: left;
+  }
+  table.responsive-table thead {
+    display: block;
+    float: left;
+  }
+  table.responsive-table thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+  }
+  table.responsive-table thead tr th::before {
+    content: "\00a0";
+  }
+  table.responsive-table tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  table.responsive-table tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  table.responsive-table th {
+    display: block;
+    text-align: right;
+  }
+  table.responsive-table td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left;
+  }
+  table.responsive-table tr {
+    padding: 0 10px;
+  }
+  table.responsive-table thead {
+    border: 0;
+    border-right: 1px solid #d0d0d0;
+  }
+  table.responsive-table.bordered th {
+    border-bottom: 0;
+    border-left: 0;
+  }
+  table.responsive-table.bordered td {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  table.responsive-table.bordered tr {
+    border: 0;
+  }
+  table.responsive-table.bordered tbody tr {
+    border-right: 1px solid #d0d0d0;
+  }
+}
+.teal {
+  background-color: #009688 ;
+}
+.teal th{
+  color:#fff;
+}
+
